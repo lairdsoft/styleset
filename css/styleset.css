@@ -35,7 +35,49 @@
     background-color: #2d5dcc;
     color: #fff;
 }
-.color-panel {
+
+.pink {
+    background-color: #d957d9;
+    color: #fff;
+}
+
+.mint-green {
+    background-color: #4fe0b0;
+    color: #fff;
+
+}
+
+.beige {
+    background-color: #efd9ca;
+    color: #fff;
+
+}
+
+.color-panel.cool-blue {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.color-panel.pink {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.color-panel.mint-green {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.color-panel.beige {
     display: inline-block;
     width: 32%;
     text-align: center;
@@ -75,7 +117,23 @@ body {
     font-weight: 700;
 }
 
+@font-face {
+    font-family: 'Work-Sans';
+    src: url(fonts/Work_Sans/WorkSans-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+    font-weight: 400;
+
+}
+
 .h1 {
     font-family: 'roboto';
     font-weight: 700;
+}
+html body div.color-panel.pink.p.color-label {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.font-panel {
+    font-family: 'Work-Sans';
+    font-weight: 400;
 }
