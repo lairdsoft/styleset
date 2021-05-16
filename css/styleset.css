@@ -68,3 +68,14 @@ body {
 
 }
 
+@font-face {
+    font-family: 'roboto';
+    src: url(fonts/roboto/roboto-bold.ttf);
+    font-style: bold;
+    font-weight: 700;
+}
+
+.h1 {
+    font-family: 'roboto';
+    font-weight: 700;
+}
