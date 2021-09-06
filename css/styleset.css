@@ -117,7 +117,7 @@ body {
 
 @font-face {
     font-family: 'Work-Sans';
-    src: url(fonts/Work_Sans/WorkSans-Italic-VariableFont_wght.ttf);
+    src: url(fonts/Work_Sans/WorkSans-Italic-VariableFont_wght.ttf) format('truetype');
     font-style: italic;
     font-weight: 400;
 
